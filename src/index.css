@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+i{
+  cursor: pointer;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-image: url('./images/icons8-eye-16.png'); /* Replace with your eye icon image */
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.toggle-password.hide {
+  background-image: url('./images/eye-slash-icon.png'); /* Replace with your eye slash icon image */
+  width: 15px;
+  height: 15px;
+}
+#btn:hover{
+  height: 60px;
+  width: 90px;
+  background-color: brown;
+}
+#btn1:hover{
+  height: 60px;
+  width: 90px;
+  background-color: brown;
+  
+  
+}
+
+#yournotes2:hover{
+  text-shadow: 5;
+  color: brown;
+}
+#yournotes:hover{
+  text-shadow: 5;
+  color: brown;
+}
+/* .mb-3:hover{
+  ;
+} */
+#description:hover{
+  background-color: rgb(233, 239, 239);
+}
+#title:hover{
+  background-color: rgb(233, 239, 239);
+}
+#tag:hover{
+  background-color: rgb(233, 239, 239);
+}
+
+#footer{
+  background-color: rgb(15, 10, 10);
+}
+.li{
+  color: rgb(146, 126, 126);
+}
